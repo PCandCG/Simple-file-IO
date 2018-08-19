@@ -14,5 +14,6 @@ int main() {
 	myfile.close();*/
 	ofstream file(path); //open in constructor
 	file << inputText;
+	system("PAUSE");
 	return 0;
 }
